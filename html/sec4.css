@@ -1,0 +1,60 @@
+.img1{
+
+    border-radius: 50%;
+ 
+}
+
+
+
+.Mdiv{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ 
+}
+
+.maindiv{
+    
+    display: flex;
+  margin-left: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.centerdiv{
+   
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .centerdiv {
+     order: -1;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .centerdiv {
+     order: -1;
+    }
+  }
+  @media only screen and (max-width: 820px) {
+    .centerdiv {
+     order: -1;
+     width:400px
+    }
+  }
+   @media only screen and (max-width: 912px) {
+    .centerdiv {
+     order: -1;
+       width:500px
+
+    }
+
+  
+
+}
