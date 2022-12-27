@@ -1,0 +1,40 @@
+
+
+
+.maindiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.div1{
+     display: flex;
+     flex-direction: column;
+}
+ 
+ .img1:hover + .info{
+
+display: block;
+margin: 20px;
+
+
+
+
+ }
+ .img1:hover{
+    transition: all 0.2 ease-in-out;
+    transform: scale(1.2);
+ }
+
+ .img1{
+    display: inline-flex;
+    margin: 20px;
+   
+   
+ }
+
+ .info{
+    width: 100px;
+    display: none;
+ }
